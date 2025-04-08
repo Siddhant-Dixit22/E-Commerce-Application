@@ -1,8 +1,6 @@
-import React from 'react';
-
 const categories = ['Electronics', 'Clothing', 'Accessories', 'Home Decor'];
 
-const CategoryPreview: React.FC = () => {
+const CategoryPreview = () => {
   return (
     <section className="py-16 px-6 text-center">
       <h2 className="text-3xl font-bold mb-8">Shop by Category</h2>

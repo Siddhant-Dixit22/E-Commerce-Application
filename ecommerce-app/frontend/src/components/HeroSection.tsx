@@ -1,6 +1,4 @@
-import React from 'react';
-
-const HeroSection: React.FC = () => {
+const HeroSection = () => {
   return (
     <section className="w-full bg-gradient-to-br from-indigo-600 to-purple-500 text-white py-20 px-6 flex flex-col items-center text-center">
       <h1 className="text-4xl md:text-6xl font-bold mb-4">
